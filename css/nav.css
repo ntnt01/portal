@@ -1,23 +1,30 @@
 /* Global rules */
 .topnav {
+    border-radius: 3px;
+    text-align:center;
     margin: auto;
-    background-color: rgb(95,95,95);
+    margin-top: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 10px;
+    border: 3px double #c2ecad;
+    background-color: #9e4b82c0;
     overflow: auto;
 }
 
 .topnav a {
-    float: left;
-    display: block;
+    display: inline-block;
     color: whitesmoke;
+    cursor:pointer;
     text-align: center;
     padding: 12px 12px;
     text-decoration: none;
     text-transform: capitalize;
-    font-size: 16px;
+    font-size: 21px;
 }
 
 .topnav a.hover, .active {
-    background-color: darkcyan;
+    /*background-color: green;*/
 }
 
 .topnav .icon {
@@ -72,5 +79,6 @@
 @media all and (max-width:500px) {
     .topnav {
         width: 100%;
+        text-align:left;
     }
 }

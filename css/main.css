@@ -1,13 +1,15 @@
 /* Global rules */
 
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 html {
-    background-color: lightgray;
-    font-family: 'Quicksand', sans-serif;
+    background-color: lightgreen;
+    font-family: 'Raleway', sans-serif;
     font-size: 0.95em;
     line-height: 1.5em;
+    background-image: url('https://notsellingpizza.neocities.org/image/greengrid.jpg');
 }
+
 
 ::selection {
     color: #000; 
@@ -15,19 +17,29 @@ html {
 }
 
 h1 {
-    font-weight: normal;
-    margin: auto;
-    background: #fff;
+    text-align:center;
+    color:white;
+    font-weight: bold;
+    margin: 10px auto;
+    margin-top: 5%;
+    border: 3px double #c2ecad;
+    background:#9e4b82c0;
     line-height: 2.5em;
 }
 
 main.wrapper {
-    background-color: white;
+    background-color: #9e4b82c0;
+    width:80%;
+    border: 3px double #c2ecad;
+    color: #bcfdcf;
+    margin: 10px auto;
     overflow: auto;
 }
 
 p {
     margin: 1em; /* Top Right Bottom Left (TRBL) */
+    font-size: 18px;
+    line-height: 1.8;
 }
 
 h2,h3 {
@@ -37,14 +49,14 @@ h2,h3 {
 }
 
 a {
-    color:darkcyan;
+    color: lightgreen;
     text-decoration: none;
 }
 
 a:hover {
     color: whitesmoke;
-    background-color: darkcyan;
-    text-decoration: none;
+    cursor:pointer;
+    text-decoration: underline;
 }
 
 footer {
@@ -58,7 +70,6 @@ footer {
 /* DESKTOP */
 @media all and (min-width:1200px) {
     main.wrapper {
-        width: 80%;
         margin: auto;
     }
     
@@ -70,7 +81,7 @@ footer {
     picture.profile img {
         width: 50%;
         float: left;
-        margin-right: 2em;
+        margin: 1.5em 2em;
     }
     
 }
@@ -104,6 +115,12 @@ footer {
     h1 {
         width: 99%;
         padding-left: 1%;
+    }
+    h2{
+      text-align:center;
+    }
+    p{
+      text-align:center;
     }
     
     picture.profile img {
