@@ -21,6 +21,7 @@ h1 {
     color:white;
     font-weight: bold;
     margin: 10px auto;
+    margin-top: 3%;
     border: 3px double #c2ecad;
     background:#9e4b82c0;
     line-height: 2.5em;
@@ -54,6 +55,7 @@ a {
 
 a:hover {
     color: whitesmoke;
+    background-color:#9e4b8270;
     cursor:pointer;
     text-decoration: underline;
 }
